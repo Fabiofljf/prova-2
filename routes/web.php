@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware('auth')->prefix('admin')->namespace('Admin')->name('admin.')->group(function () {
+    // rotte
+    Route::get('/home', 'HomeController@index')->name('home');
+    });
 
 // inseriamola come ultima rotta
 // alla fine del file web.php
