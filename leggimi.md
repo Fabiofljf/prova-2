@@ -7,7 +7,6 @@
 2. Installare dipendenze:
 - npm i;
 
-
 3. Installare Bootstrap:
 - npm i Bootstrap;
 
@@ -27,6 +26,13 @@
 - npm run watch;
 (Prova del nove => Public->css->app.css deve esserci scritto: Bootstrap v5.1.3 (https://getbootstrap.com/)).
 
+## Inizializzazione per chi clona
+1. Clonare il progetto e installare:
+- npm i
+- composer i
+- nmp install vue-router@3 
+- npm run watch
+- php artisan serve;
 
 ## Nuovo DB:
 1. Lanciare mysql:
