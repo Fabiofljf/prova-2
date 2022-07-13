@@ -1,16 +1,16 @@
 <template>
- <div>
-    <header>
-
+ <div id="site_app">
+    <header id="site_header_app">
+      
     </header>
-    <main>
-        <h1>ciao</h1>
-
+    <!-- /#site_header_app -->
+    <main id="site_main_app">
+      <router-view></router-view>
     </main>
-    <footer>
-        <p>&copy;</p>
-    </footer>
- </div>
+    <!-- /#site_main_app -->
+    <footer id="site_footer_app" class="text-center my-5">Copyrigth©</footer>
+    <!-- /#site_footer_app -->
+  </div>
 </template>
 
 <script>
